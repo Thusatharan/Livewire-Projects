@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Counter;
 use App\Http\Livewire\Projects;
+use App\Http\Livewire\Contacts;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +20,5 @@ Route::get('/', Projects::class);
 
 Route::prefix('projects')->group(function () {
     Route::get('/counter', Counter::class)->name('counter.show');
+    Route::get('/contacts', Contacts::class)->name('contact.show');
 });

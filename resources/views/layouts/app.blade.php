@@ -41,9 +41,8 @@
             @endif
 
         </div> --}}
-        <img src="https://laravelnews.imgix.net/images/laravel-livewire.png?ixlib=php-3.3.1" style=" height: 150px; display: block; margin-left: auto;
-margin-right: auto;"/>
-        <div class="container" style="margin-top:100px;">
+        <img src="https://laravelnews.imgix.net/images/laravel-livewire.png?ixlib=php-3.3.1" style=" height: 150px; display: block; margin-left: auto; margin-right: auto;"/>
+        <div class="container" style="margin-top:50px;">
            
             {{ $slot }}
         </div>
